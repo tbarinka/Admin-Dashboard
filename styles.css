@@ -56,7 +56,14 @@ body {
 #header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
 }
+
+    #header > div {
+        border: solid red;
+    }
+
 
 #main {
     grid-column: 2 / 3;
