@@ -1,0 +1,40 @@
+html, body{
+    margin:0;
+    padding:0;
+  }
+
+body {
+    height: 100vh;
+    width: auto;
+    background-color: orange;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 130px 1fr;
+}
+
+#container > div {
+    border: solid black;
+}
+
+#sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 6fr;
+}
+
+#header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
