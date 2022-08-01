@@ -210,6 +210,7 @@ body {
                 font-size: 1.25rem;
                 color: rgba(0, 0, 0, .9);
                 height: 40px;
+                margin-left: 20px
         }
 
         #main-contain-2 > div {
@@ -224,6 +225,7 @@ body {
         #main-contain-2 > div > p {
             margin-left: 20px;
         }
+
 
 /* icon styles */
 
