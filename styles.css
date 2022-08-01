@@ -43,7 +43,7 @@ body {
     #sidebar > div > p {
         font-size: 24px;
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: -25px;
     }
 
     #sidebar > #list-container > ui {
@@ -55,7 +55,7 @@ body {
     }
 
 #head-parent {
-    height: 150px;
+    height: 200px;
 }
 #header {
     height: 97%;
@@ -70,17 +70,19 @@ body {
         height: 100%;
         display: grid;
         grid-template-rows: 200px auto-fill;
+        margin-bottom: -30px;
     }
         #left-head > form {
             grid-row: 1 / 2;
+            height: 40%;
             display: flex;
             margin-left: 10%;
             align-items: center;
             gap: 10px;
-            margin-top: 20px;
         }
             #left-head > form > input {
                 width: 75%;
+                height: 50%;
                 border-radius: 10px;
                 font-size: 16px;
                 background-color: #e2e8f0;
@@ -90,14 +92,13 @@ body {
             grid-row: 2 / 3;
             display: grid;
             grid-template-columns: 100px 1fr;
-            margin-left: 97px;
-            margin-top: 7px;
+            margin-left: 80px;
+            border: solid red;
         }
             #left-head > div > .image {
                 grid-column: 1 / 2;
                 display: flex;
-                margin-top: 10px;
-                margin-right: -15px;
+                margin-top: 15px;
             }
 
                 .image > .icon-2 {
@@ -111,7 +112,6 @@ body {
                 flex-direction: column;
                 gap: -40px;
                 justify-content: center;
-                margin-top: -20px;
             }
                 #left-head > div > .user-info > #greeting {
                     font-size: 16px;
@@ -228,4 +228,18 @@ body {
 .icon-1 {
     height: 25px;
     width: auto;
+}
+
+.dash-icon {
+    height: 24px;
+    width: auto;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+#dash-brand {
+    height: 42px;
+    width: auto;
+    margin: 5px;
+    margin-bottom: -13px;
+    margin-left: -10px;
 }
