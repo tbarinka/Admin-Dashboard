@@ -192,7 +192,7 @@ body {
             gap: 25px;
         }
             .color-box {
-                background-color: yellow;
+                background-color: #fde047;
                 border-radius: 7px;
                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.347);
                 width: 375px;
@@ -201,9 +201,10 @@ body {
             }
             .project-box {
                 height: 100%;
-                width: 95%;
+                width: 96.5%;
+                border-top-right-radius: 7px;
+                border-bottom-right-radius: 7px;
                 background-color: white;
-                border-radius: 7px;
                 position: relative;
             }
 
@@ -270,11 +271,13 @@ body {
     width: auto;
 }
 
-.project-icons {
-    position: absolute;
-    bottom: 0px;
-    right: 25px;
-}
+    .project-icons {
+        position: absolute;
+        bottom: 0px;
+        right: 25px;
+        display: flex;
+        gap: 7px;
+    }
 
 .dash-icon {
     height: 24px;
