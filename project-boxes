@@ -11,7 +11,7 @@
     </p>
 </div>
 <div>
-    <p class="label"><b>Impossible App</b></p>
+    <p class="label"><b>First App</b></p>
     <p class="text">
         Duis aute irure dolor in reprehenderit in voluptate velit
         esse cillum dolore eu fugiat nulla pariatur.
@@ -27,14 +27,14 @@
     </p>
     
 </div>
-<div>
+<div class="project-box">
     <p class="label">
         <b>Ad Blocker</b>
     </p>
     <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
         consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 </div>
-<div>
+<div class="project-box">
     <p class="label"><b>Money Maker</b></p>
     <p class="text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
         sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
