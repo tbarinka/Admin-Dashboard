@@ -160,7 +160,7 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 1.5fr;
     background-color: #f3f4f6;
 }
 
