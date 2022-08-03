@@ -183,9 +183,10 @@ body {
         #project-container{
             margin-top: 39px;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-template-columns: repeat(2, minmax(300px, 1fr));
             grid-template-rows: repeat(3, 1fr);
             gap: 25px;
+            margin-bottom: 20px;
         }
             .color-box {
                 background-color: #fde047;
