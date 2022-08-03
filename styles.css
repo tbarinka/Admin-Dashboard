@@ -167,36 +167,60 @@ body {
     #main > #main-contain-1 {
         grid-column: 1 / 2;
         display: grid;
-        grid-template-columns: repeat(auto-fit, 1fr);
-        grid-template-rows: 20px, repeat(auto-fit, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px, 1fr;
         margin: 15px;
         margin-top: -5px;
-        margin-bottom: 30px;
         padding: 5px;
         gap: 20px;
     }
 
         #main-contain-1 > p {
-            grid-column: 1 / 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
             text-align: left;
-            margin-bottom: -5px;
+            margin-bottom: -50px;
             font-weight: bold;
             font-size: 1.25rem;
             color: rgba(0, 0, 0, .9);
         }
+        #project-container{
+            margin-top: 39px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(auto-fit, 1fr);
+            gap: 25px;
+        }
+            .color-box {
+                background-color: yellow;
+                border-radius: 7px;
+                box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.347);
+                width: 375px;
+                display: flex;
+                justify-content: right;
+            }
+            .project-box {
+                height: 100%;
+                width: 95%;
+                background-color: white;
+                border-radius: 7px;
+            }
 
-            #main-contain-1 > div {
+            /*#main-contain-1 > div {
                 background-color: white;
                 padding: 15px;
                 border-radius: 7px;
                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.347);
-            }
+            }*/
 
             .label {
                 font-size: 1.15rem;
+                padding: 10px;
             }
             .text {
                 font-size: .9rem;
+                padding: 10px;
+                margin-top: -25px;
             }
 
     #main > #main-contain-2 {
